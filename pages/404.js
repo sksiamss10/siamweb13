@@ -5,7 +5,7 @@ function ErrorPage() {
 	console.log(router)
 	return (
 		<>
-			<h1>Page not found!!!</h1>
+			<h1>We are sorry...Page not found!!!</h1>
 			<a onClick={() => router.push('/')}><button>Back</button></a>
 		</>
 	)
